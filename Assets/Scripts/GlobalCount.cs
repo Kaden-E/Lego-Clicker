@@ -11,6 +11,6 @@ public class GlobalCount : MonoBehaviour
 
     private void Update(){
         InternalLegoCount = LegoCount;
-        LegoDisplay.GetComponent<Text>().text = "Studs: " + InternalLegoCount; //Store internal value when scene changes.
+        LegoDisplay.GetComponent<Text>().text = "Lego: " + InternalLegoCount; //Store internal value when scene changes.
     }
 }
